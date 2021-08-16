@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int n,fat=1;
+		System.out.println("qual numero deseja calcular o fatorial?");
+		n = entrada.nextInt();
+		if(n>=0){
+		    for( int i = 1; i <= n; i++){
+		        fat=fat*i;
+		    }
+		    System.out.println("O Fatorial de "+n+" é: "+fat);
+		}else {
+		    System.out.println("Informe numeros apartir de 0!");
+		}
+	}
+}

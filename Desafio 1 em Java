@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int a=0,b=1,aux,num;
+		
+		System.out.println("Digite um termo Fibonacci:");
+		num=entrada.nextInt();
+		System.out.println("Fibonacci:");
+        for(int i = 0; i <num; i++){
+            System.out.println(a);
+            aux=a;
+            a=a+b;
+            b=aux;
+        }
+		
+
+		    
+		}
+	}
